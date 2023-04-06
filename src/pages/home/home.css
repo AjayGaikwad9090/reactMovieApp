@@ -1,0 +1,48 @@
+/* * {
+  color: white;
+} */
+.movieSlideImg {
+  height: 600px;
+}
+.movieSlideImg > img {
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.movieSlidedata {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 100%;
+  height: 70%;
+  padding: 5rem;
+  bottom: 0px;
+  position: absolute;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0, 1));
+  opacity: 1;
+  transition: opacity 0.3s;
+  color: white;
+}
+.movieSlidedata:hover {
+  opacity: 1;
+}
+.movieSlidetitle p {
+  margin-bottom: 0.4em;
+  font-weight: 900;
+  font-size: 5rem;
+  text-align: left;
+}
+.additionalSlideData {
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+.movieSlideRating {
+  margin-left: 3rem;
+}
+.movieSlideDesc p {
+  font-size: 1em;
+  text-align: left;
+  margin-bottom: 0.3rem;
+  width: 50%;
+}
